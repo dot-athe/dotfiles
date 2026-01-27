@@ -1,5 +1,8 @@
 # Sheldon Setup Guide (Homebrew & Zsh)
 
+## ドキュメント
+- [GitHub Repository](https://github.com/rossmacarthur/sheldon)
+
 ## 概要
 **Sheldon** は、Rust製の高速かつ設定可能なシェルプラグインマネージャーです。
 `plugins.toml` という単一の設定ファイルでプラグインを管理でき、高速に動作するのが特徴です。

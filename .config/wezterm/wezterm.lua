@@ -77,6 +77,6 @@ end)
 config.keys = require("keybinds").keys
 config.key_tables = require("keybinds").key_tables
 config.disable_default_key_bindings = true
-config.leader = { key = "j", mods = "CTRL", timeout_milliseconds = 2000 }
+config.leader = { key = "g", mods = "CTRL", timeout_milliseconds = 2000 }
 
 return config
