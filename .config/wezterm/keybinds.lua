@@ -1,6 +1,5 @@
 local wezterm = require 'wezterm'
 local act = wezterm.action
-local ai_swarm = require 'ai_swarm'
 
 local keys = {
 -- ================ タブ操作 ================ 
@@ -178,11 +177,6 @@ local keys = {
     mods = 'SUPER',
     action = act.SpawnWindow
 }}
-
--- AI Swarm キーバインドをマージ
-for _, kb in ipairs(ai_swarm.get_keys()) do
-    table.insert(keys, kb)
-end
 
 local key_tables = {
     resize_pane = {{

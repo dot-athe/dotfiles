@@ -79,9 +79,4 @@ config.key_tables = require("keybinds").key_tables
 config.disable_default_key_bindings = true
 config.leader = { key = "g", mods = "CTRL", timeout_milliseconds = 2000 }
 
---------------------------------------
--- AI Swarm
---------------------------------------
-require('ai_swarm').setup(config)
-
 return config
